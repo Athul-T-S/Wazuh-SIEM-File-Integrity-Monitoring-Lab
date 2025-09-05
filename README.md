@@ -9,14 +9,13 @@ This project demonstrates the setup and configuration of a **Wazuh SIEM home lab
 - **Wazuh Manager**: Ubuntu Server (VirtualBox VM)  
 - **Wazuh Agent**: Windows host machine  
 - **Network Mode**: Bridged (for direct communication between host and VM)  
-
-![Architecture Diagram](architecture.png) *(add your own diagram if possible)*  
+ 
 
 ---
 
 ## 🔹 Features Implemented  
 
-- Deployed **Wazuh Manager** on Ubuntu (VirtualBox) using official installation scripts.  
+- Deployed **Wazuh Manager** on Ubuntu (vm) using official installation scripts.  
 - Installed and registered **Wazuh Agent** on Windows host for log forwarding.  
 - Configured **File Integrity Monitoring (FIM)** to track real-time changes in files/folders.  
 - Verified **agent onboarding and alert generation** using the Wazuh Dashboard.  
@@ -65,10 +64,7 @@ Restart the agent service after saving.
 - SIEM (Wazuh)  
 - Log Analysis & File Integrity Monitoring  
 - Intrusion Detection Concepts  
-- Linux (Ubuntu), Windows Administration  
-- Virtualization (VirtualBox)  
+- Linux , Windows Administration  
+- Virtualization 
 
 ---
-
-## 🔹 Author  
-[Your Name] – Cybersecurity Enthusiast 🚀  
